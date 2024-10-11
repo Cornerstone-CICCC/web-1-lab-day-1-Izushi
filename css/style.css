@@ -2,3 +2,63 @@ main,
 footer {
   display: flex;
 }
+
+body {
+  font-family: serif;
+}
+
+header {
+  background-color: #121D51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px
+}
+
+#logo {
+  margin: 0 auto;
+}
+
+.sidebar {
+  background-color: yellow;
+  color: blue;
+}
+
+.content {
+  background-color: cyan;
+}
+
+
+#about + p {
+  background-color: black;
+  color: white;
+}
+
+#services + p {
+  background-color: green;
+  color: white;
+}
+
+.content ul:first-of-type {
+  list-style-type: circle;
+}
+
+.content ul:first-of-type li:nth-child(even) {
+  color: red;
+}
+
+.content ul:not(:first-of-type) a {
+  color: red;
+}
+
+footer div:nth-of-type(1) {
+  background-color: #F6BFCA;
+}
+
+footer div:nth-of-type(2) {
+  background-color: #A52A2A;
+}
+
+footer div:nth-of-type(3) {
+  background-color: #808080;
+}
